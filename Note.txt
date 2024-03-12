@@ -1,0 +1,56 @@
+JAVASCRIPT FRONT-END
+--------------------
+-Behaviour
+
+-Browser
+--------
+-application prograamme that provides an interface to interact with all informations available in
+www(world wide web)
+
+- Browser engine - can read and display HTML,CSS ,JS contents
+
+- javascript cannot directly access HTML and CSS
+-but javascript can access DOM - Document Object Model
+
+DOM
+---
+-tree structure of HTML Document
+-created by Browser
+
+BOM - Browser Object Model
+---
+-created by browser
+
+
+WAY TO APPLY JAVASCRIPT WITH HTML
+---------------------------------
+1) internal js - <script></script>
+    - after the closing of body tag
+2) external js - create an external file with extension as .js
+    - link it with html file using scrit tag and mention the path in the src attribute
+
+how to access the html tag
+--------------------------
+1) document.getElementById("id") - returns a tag
+2) document.getElementByTagname("tagname") - returns HTML collection(array) of the particular tag
+3) document.getElementByClassName("classname")- returns html collection(array) of the particular 
+tag with same classname
+4) document.querySelector("tagname","#id"/".classname") - returns the first tag that satisfies the condiition
+5) document.querySelectorAll("tagname","#id"/".classname") - nodelist - array of all tags that satisfies
+the condiition
+
+how to access the contents
+--------------------------
+1) .innerHTML
+
+- document.write(), textcontent()
+
+Events
+------
+- Events are those actions which have the ability to update DOM.
+
+1) CLICK
+2) CHANGE
+3) KEYDOWN
+4) SUBMIT
+5) LOAD
